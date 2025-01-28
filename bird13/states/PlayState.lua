@@ -125,9 +125,6 @@ function PlayState:enter(enterParams)
     -- if we're coming from death, restart scrolling
     scrolling = true
 
-    print("PlayState:enter")
-    print(enterParams)
-
     if enterParams ~= nil then
         self.bird = enterParams.bird
         self.pipePairs = enterParams.pipePairs
